@@ -1,0 +1,23 @@
+{
+  "rules": {
+    "smai": {
+      ".read": true,
+      ".write": false,
+
+      "lecturas": {
+        ".write": "auth != null && auth.uid === 'DWdvfIPyf2cmQOrp3K3nQ8ACfjZ2'"
+      },
+
+      "ultima": {
+        ".write": "auth != null && auth.uid === 'DWdvfIPyf2cmQOrp3K3nQ8ACfjZ2'"
+      },
+
+      "recomendacion": {
+        ".write": "auth != null && auth.uid === 'do00jjf36SMKckVffL8GMMkivOJ3'"
+      },
+      "riego_estado": {
+  			".write": "auth != null && auth.uid === 'DWdvfIPyf2cmQOrp3K3nQ8ACfjZ2'"
+			}
+    }
+  }
+}
